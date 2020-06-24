@@ -36,6 +36,7 @@
                             </button>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minimumValue="1" maximumValue="10" stepValue="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="CPg-tL-I2a">
                                 <rect key="frame" x="210" y="145" width="94" height="32"/>
+                                <color key="tintColor" name="Elements"/>
                                 <connections>
                                     <action selector="stepperChangeValue:" destination="BYZ-38-t0r" eventType="valueChanged" id="aeg-3R-M9u"/>
                                 </connections>

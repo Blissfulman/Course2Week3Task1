@@ -41,6 +41,9 @@ class CalculatorViewController: UIViewController {
         stepper.layer.borderColor = UIColor(named: "Elements")?.cgColor
         stepper.layer.cornerRadius = 6
         stepper.layer.masksToBounds = true
+        stepper.setDecrementImage(stepper.decrementImage(for: .normal), for: .normal)
+        stepper.setIncrementImage(stepper.incrementImage(for: .normal), for: .normal)
+        stepper.tintColor = UIColor(named: "Elements")!
         super.viewDidLoad()
     }
 }
